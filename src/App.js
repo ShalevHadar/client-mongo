@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import axios from "axios";
 
 function App() {
-  const URL = `http://localhost:3030/api/`;
+  const URL = `https://mongo-server-shalev.herokuapp.com/api/`;
 
   // states
   const [id, setId] = useState("");
